@@ -1,5 +1,7 @@
 # kotlin-example-websockets
 
+[ws://localhost:8080/ws/primes](ws://localhost:8080/ws/primes)
+
 Example of using Kotlin to create a WebSockets API
 
 `gradlew bootRun`

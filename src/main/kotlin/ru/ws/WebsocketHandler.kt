@@ -1,4 +1,4 @@
-package ru.example.ws
+package ru.ws
 
 import org.springframework.stereotype.Component
 import org.springframework.web.reactive.socket.WebSocketHandler
