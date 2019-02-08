@@ -41,7 +41,7 @@ class WebSocketConfiguration {
     @Bean
     fun fileChannel() = PublishSubscribeChannel()
 
-    @Bean //TODO
+    @Bean //TODO (file: ??? )
     fun filesFlow(@Value("\${file://\${HOME}/Desktop/in}") file: File): IntegrationFlow =
             IntegrationFlows
                     .from(Files

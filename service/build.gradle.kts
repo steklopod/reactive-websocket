@@ -2,7 +2,7 @@
 import io.spring.gradle.dependencymanagement.dsl.DependencyManagementExtension
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-description = " `backend` модуль"
+description = " websocket: пример"
 
 plugins {
     val kotlinVersion = "1.3.21"
@@ -10,7 +10,7 @@ plugins {
     id("org.jetbrains.kotlin.plugin.jpa") version kotlinVersion
     id("org.jetbrains.kotlin.plugin.spring") version kotlinVersion
     id("com.github.ben-manes.versions") version "0.20.0"
-    id("org.springframework.boot") version "2.1.1.RELEASE"
+    id("org.springframework.boot") version "2.1.2.RELEASE"
     id("io.spring.dependency-management") version "1.0.6.RELEASE"
 }
 
@@ -49,5 +49,3 @@ tasks {
 }
 
 defaultTasks("clean", "build", "bootRun")
-
-
