@@ -21,10 +21,13 @@ class WebSocketConfig(
     @Bean
     fun handlerMapping() : HandlerMapping {
         val handlerMapping = SimpleUrlHandlerMapping()
+
         handlerMapping.urlMap = mapOf(
                 "/ws/primes" to primeNumbersHandler
         )
+
         handlerMapping.order = 1
+
         return handlerMapping
     }
 }

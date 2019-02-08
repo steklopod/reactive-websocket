@@ -6,10 +6,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 
 
 @SpringBootApplication
-class KotlinWebfluxDemoApplication
+class Application
 
 fun main(args: Array<String>) {
-    val app = SpringApplication(KotlinWebfluxDemoApplication::class.java)
+    val app = SpringApplication(Application::class.java)
+
     app.webApplicationType = WebApplicationType.REACTIVE
     app.run(*args)
 }
