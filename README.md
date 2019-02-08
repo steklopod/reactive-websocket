@@ -1,7 +1,8 @@
 # kotlin-example-websockets
+
 Example of using Kotlin to create a WebSockets API
 
-Start with `./gradlew bootRun`
+`gradlew bootRun`
 
 Then, open `index.html` multiple times.
 
